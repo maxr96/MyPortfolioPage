@@ -11,6 +11,7 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { CvComponent } from './components/cv/cv.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
+import { CollapsingTreeComponent } from './components/collapsing-tree/collapsing-tree.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AboutComponent } from './components/about/about.component';
     PortfolioComponent,
     CvComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    CollapsingTreeComponent
   ],
   imports: [
     BrowserModule,
